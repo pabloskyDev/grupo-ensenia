@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Arima', sans-serif;
+}
+
+header {
+    background-color:#243A73;
+    color: #ffffff;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nomLogo p:nth-child(2) {
+    font-size: 30px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.menu {
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #bfbfbf;
+    padding: 20px; 
+}
+
