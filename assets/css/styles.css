@@ -10,12 +10,14 @@ body {
 }
 
 header {
+    position:relative;
     background-color:#2b334f;
     color: #ffffff;
     padding: 10px 30px;
     display: flex;
     flex-direction:row;
     align-items:center;
+    box-shadow: #848788 5px 3px 8px;
 }
 
 .logo {
@@ -29,7 +31,7 @@ header {
 }
 .nomLogo p:nth-child(1) {
     font-size: 20px;
-    position:absolute
+    position:absolute;
 }
 .nomLogo p:nth-child(2) {
     font-size: 40px;
@@ -58,4 +60,38 @@ span{
     color: #bfbfbf;
     padding: 20px; 
 }
+.bg-main{
+    height: 80vh;
+    width: 100vw;
+    background-image: url(../img/fondoClaroDegrado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    display: grid;
+    grid-template-columns: [lineac1] 1fr [lineac2] 2fr [lineac3] 1fr;
+}
+section:nth-child(1){
+    background-image: url(../img/GifIconosDiscapacidad.gif);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h3{
+   color: black;  
+}
+h3:nth-child(1){
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+article img{
+    margin-top: 15px;
+    width: 100%;
+    box-shadow: #848788 5px 3px 8px;
+}
+
+
 
