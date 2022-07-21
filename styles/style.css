@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Arima', sans-serif;
-    background-image: url(../img/fondoClaro.png);
+    /* background-image: url(../img/fondoClaro.png); */
 }
 .color-nav{
     background-color: #4D4C7D;
