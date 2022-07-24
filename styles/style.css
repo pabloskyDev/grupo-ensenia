@@ -61,7 +61,6 @@
   background-color:#FF5703;
 }
 
-
 .color-azul {
   color:#06b7d9 !important;
 }
@@ -227,4 +226,9 @@ input {
   transform-origin: 0 100%;
   display: inline-block;
   line-height: 1em;
+}
+/* Style Footer */
+
+#icono {
+  width: 5%;
 }
