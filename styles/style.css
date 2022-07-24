@@ -6,11 +6,36 @@
   box-sizing: border-box;
 }
 
-body {
+.bodyindex {
   font-family: 'Arima', sans-serif;
   background-color: #B2C8DF;
 }
+.bodycontactanos {
+  font-family: 'Arima', sans-serif;
+  background-color: #B2C8DF;
+}
+.bodyniveles {
+  font-family: 'Arima', sans-serif;
+  background-color: #F0DFF5;
+}
+.bodycanales {
+  font-family: 'Arima', sans-serif;
+  background-color: #FDCFB5;
+}
+.bodyestudiantes {
+  font-family: 'Arima', sans-serif;
+  background-color: #D9F9FF;
+}
+.bodycolaboradores {
+  font-family: 'Arima', sans-serif;
+  background-color: #ffd0d0;
+}
+.bodyquienessomos {
+  font-family: 'Arima', sans-serif;
+  background-color: #FEE4D6;
+}
 
+/*colores fondo navbar*/
 .bg-nav {
   background-color: #4D4C7D;
 }
@@ -26,6 +51,16 @@ body {
 .bg-card3 {
   background-color:#4b667b;
 }
+.bg-estudiantes {
+  background-color:#06b7d9;
+}
+.bg-quienessomos {
+  background-color:#FF8B01;
+}
+.bg-canales {
+  background-color:#FF5703;
+}
+
 
 .color-azul {
   color:#06b7d9 !important;
@@ -36,8 +71,14 @@ body {
 .color-gris {
   color:#4b667b !important;
 }
-.color-naranja, .color-naranja:active {
+.color-naranja {
   color:#FF5703 !important;
+}
+.color-amarillo  {
+  color:#FF8B01 !important;
+}
+.color-rojo {
+  color: #f00 !important;
 }
 
 /*estilos contactanos*/
@@ -167,4 +208,23 @@ center {
 input {
   position: relative;
   z-index: 9999;
+}
+/*amimacion letras grupo enseña*/
+.ml {
+  position: relative;
+  font-weight: 800;
+  font-size: 3.7em;
+}
+.ml .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
 }
