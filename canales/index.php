@@ -8,68 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
   </head>
   <body class="bodyquienessomos">
     <!-- Menu navegación CANALES -->
     <nav class="navbar navbar-expand-lg bg-canales">
-      <div class="container-fluid">
-        <a class="navbar-brand col-md-4 d-flex align-items-center ps-5 m-0" href="index.html">
-          <img src="./img/logoOriginalgris.png" alt="logo" height="100">
-          <h1 class="ml" >
-            <span class="text-wraper">
-              <span class="letters ps-3 text-white fs-4 fw-bold">CANALES</span>
-           </span>
-          </h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse col-md-8" id="navbarSupportedContent">
-          <ul class="navbar-nav col-12 d-flex justify-content-end me-5 pe-5 fs-5">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white " href="niveles.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Niveles Educativos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="niveles.html">Básico</a></li>
-                <li><a class="dropdown-item" href="niveles.html">Intermedio
-                </a></li>
-                <li><a class="dropdown-item" href="niveles.html">Avanzado</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="colaboradores.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Colaboradores
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="colaboradores.html">Profesores Sordos</a></li>
-                <li><a class="dropdown-item" href="colaboradores.html"> Profesores</a></li>
-                <li><a class="dropdown-item" href="colaboradores.html">Interprestes</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" aria-current="page" href="canales.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Canales
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Clases en Vivo</a></li>
-                <li><a class="dropdown-item" href="#">Actividades</a></li>
-                <li><a class="dropdown-item" href="#">Expresiones Comunes</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="quienessomos.html"> Quienes Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="estudiantes.html">Estudiantes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="contactanos.html">Contáctanos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <?php include '../templates/header.php'; ?>
     </nav>                
 <br>
 <!-- Footer -->
@@ -164,7 +108,7 @@
 <!-- fin footer-->
 <!-- scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  <script src="./js/app1.js"></script>
+  <script src="../js/app1.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <!--animaciones scrollreveal-->
