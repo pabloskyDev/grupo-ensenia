@@ -28,12 +28,14 @@
 }
 .bodycolaboradores {
   font-family: 'Arima', sans-serif;
-  background-color: #ffd0d0;
+  background-color: #f6e5e5;
 }
 .bodyquienessomos {
   font-family: 'Arima', sans-serif;
   background-color: #FEE4D6;
 }
+
+
 
 /*colores fondo navbar*/
 .bg-nav {
@@ -169,7 +171,26 @@
   background:#8BC3A3;
   color:white;
 }
-
+.imgprofesordo{
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px #a2a1a1;
+}
+.imgprofe{
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px #a2a1a1;
+}
+.imginterprete{
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px #a2a1a1;
+}
+.imginterpretesemi{
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px #a2a1a1;
+}
 /* Send Button Styles */
 
 .form-btn {
@@ -227,6 +248,19 @@ input {
   display: inline-block;
   line-height: 1em;
 }
+/* animacion Titulos profesores*/
+.ml15 {
+  font-weight: 800;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
 /* Style Footer */
 
 #icono {
