@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <a class="navbar-brand col-md-4 d-flex align-items-center ps-5 m-0" href="../index.php">
+    <a class="navbar-brand col-md-4 d-flex align-items-center ps-5 m-0" href="../inicio/index.php">
         <img src="../img/logoOriginalgris.png" alt="logo" height="100">
         <h1 class="ml" >
             <span class="text-wraper">
@@ -33,13 +33,13 @@
                 </ul>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="canales/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white" href="../canales/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Canales
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="canales/">Clases en Vivo</a></li>
-                    <li><a class="dropdown-item" href="canales/">Actividades</a></li>
-                    <li><a class="dropdown-item" href="canales/">Expresiones Comunes</a></li>
+                    <li><a class="dropdown-item" href="../canales/">Clases en Vivo</a></li>
+                    <li><a class="dropdown-item" href="../canales/">Actividades</a></li>
+                    <li><a class="dropdown-item" href="../canales/">Expresiones Comunes</a></li>
                 </ul>
             </li>
             <li class="nav-item">

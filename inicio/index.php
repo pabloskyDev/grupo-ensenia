@@ -8,12 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
   </head>
   <body class="bodyindex" >
     <!-- Menu navegación index -->
     <nav class="navbar navbar-expand-lg bg-nav">
-      <?php include 'templates/header.php'; ?>
+      <?php include '../templates/header.php'; ?>
     </nav>    
     <div id="carouselExampleIndicators" class="carousel slide container"      data-bs-ride="true">
       <div class="carousel-indicators">
@@ -23,13 +23,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./img/carrousel1.png" class="d-block h-100" alt="imagen 1">
+          <img src="../img/carrousel1.png" class="d-block h-100" alt="imagen 1">
         </div>
         <div class="carousel-item">
-          <img src="./img/carrousel2.png" class="d-block h-100" alt="imagen 2">
+          <img src="../img/carrousel2.png" class="d-block h-100" alt="imagen 2">
         </div>
         <div class="carousel-item">
-          <img src="./img/carrousel3.png" class="d-block h-100" alt="imagen 3">
+          <img src="../img/carrousel3.png" class="d-block h-100" alt="imagen 3">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -46,7 +46,7 @@
       <div class="row">
         <div class="card1 col-md-4">
           <div class="card bg-card3 align-items-center p-3">
-            <img src="./img/logoImagenLetras.png" class="card-img-top w-50 h-50" alt="logo imagen letras">
+            <img src="../img/logoImagenLetras.png" class="card-img-top w-50 h-50" alt="logo imagen letras">
             <div class="card-body">
               <p class="card-text text-light">Es una empresa de diseño
                 y desarrollo de proyectos para la inclusión, ajustes
@@ -58,7 +58,7 @@
         </div>
         <div class="card2 col-md-4">
           <div class="card bg bg-card3 align-items-center p-3">
-            <img src="./img/logoImagenLetras.png" class="card-img-top w-50" alt="logo imagen letras">
+            <img src="../img/logoImagenLetras.png" class="card-img-top w-50" alt="logo imagen letras">
               <div class="card-body">
                 <p class="card-text text-light">Es una empresa de diseño
                  y desarrollo de proyectos para la inclusión, ajustes
@@ -70,7 +70,7 @@
         </div>
           <div class="card3 col-md-4">
             <div class="card bg bg-card3 align-items-center p-3">
-              <img src="./img/logoImagenLetras.png" class="card-img-top w-50" alt="logo imagen letras">
+              <img src="../img/logoImagenLetras.png" class="card-img-top w-50" alt="logo imagen letras">
                 <div class="card-body">
                   <p class="card-text text-light">Es una empresa de diseño
                     y desarrollo de proyectos para la inclusión, ajustes
@@ -86,16 +86,16 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-6 align-self-center">
-                <video src="img/video1.mp4" class="card-img-top" alt="video muestra 1">
+                <video src="../img/video1.mp4" class="card-img-top" alt="video muestra 1">
               </div>
               <div class="col-md-6 align-self-center align-content-center">
                 <div class="container">
                   <div class="row">
-                    <img src="./img/logoImagenLetras.png" class="card-img-top w-90" alt="logo imagen letras">
+                    <img src="../img/logoImagenLetras.png" class="card-img-top w-90" alt="logo imagen letras">
                   </div>
                   <br>
                   <div class="row">
-                    <img src="./img/logoImagenLetras.png" class="card-img-top w-90" alt="logo imagen letras">
+                    <img src="../img/logoImagenLetras.png" class="card-img-top w-90" alt="logo imagen letras">
                   </div>
                 </div>   
           </div>
@@ -103,98 +103,13 @@
 <br>
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-nav text-muted ">
-
-  <section class="d-flex justify-content-lg-end p-4 border-bottom text-light">
-    <div class="me-5 d-none d-lg-block display-8">
-      <span>Conectate con Nosotros:</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 ">
-        <img src="./img/FaceBookIcono.png" alt="" id="icono">
-      </a>
-      <a href="" class="me-4 ">
-        <img src="./img/youtubeIcono.png" alt="" id="icono">
-      </a>
-      <a href="" class="me-4 ">
-        <img src="./img/waspaIcono.png" alt="" id="icono">
-      </a>
-      <a href="" class="me-4 ">
-        <img src="./img/InstagramIcono.png" alt="" id="icono">
-      </a>
-    </div>
-  </section>
-  <section class="">
-    <div class="container text-center text-md-start mt-5 text-light">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Grupo Enseña
-          </h6>
-          <p>
-            La lengua de Señas es el idioma oficial de las Personas Sordas, 
-            es una lengua que se caracteriza por ser viso-gestual y espacial y  
-            creada por los mismos usuarios Sordos.
-          </p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="./canales.html" class="text-reset">Clases en vivo</a>
-          </p>
-          <p>
-            <a href="./canales.html" class="text-reset">Actividades</a>
-          </p>
-          <p>
-            <a href="./canales.html" class="text-reset">videos</a>
-          </p>
-        </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            Contact
-          </h6>
-          <p><i class="fas fa-home me-3"></i> Medellín, Ant, Col</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2022 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">GrupoEnseña.com</a>
-  </div>
+  <?php include '../templates/footer.php'; ?>
 </footer>
 <!-- fin footer-->
 
 <!-- scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  <script src="./js/app1.js"></script>
+  <script src="../js/app1.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <!--animaciones scrollreveal-->
