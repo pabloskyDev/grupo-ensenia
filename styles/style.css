@@ -6,12 +6,7 @@
   box-sizing: border-box;
 }
 
-.card{
-  border-radius:20px;
-}
-.sec2{
-  border-radius:50px;
-}
+
 
 .bodyindex {
   font-family: 'Arima', sans-serif;
@@ -197,6 +192,10 @@
   height: 400px;
   border-radius: 10px;
   box-shadow: 3px 2px 5px #a2a1a1;
+}
+.cardgif{
+  align-items: center;
+  
 }
 /* Send Button Styles */
 
