@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+.card{
+  border-radius:20px;
+}
+.sec2{
+  border-radius:50px;
+}
+
 .bodyindex {
   font-family: 'Arima', sans-serif;
   background-color: #B2C8DF;
