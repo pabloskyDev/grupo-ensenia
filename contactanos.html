@@ -74,7 +74,7 @@
 <br>
     <div class="inner contact container pt-5">
       <div class="contact-form">
-        <form id="contact-us" method="post" action="#">
+        <form id="form-btn">
           <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
             <input type="text" name="name" id="name" required="required" class="form" placeholder="Nombre">
             <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Correo Electrónico">
@@ -85,8 +85,7 @@
             </textarea>
           </div>
           <div class="relative fullwidth col-xs-12">
-            <button type="submit" id="submit" name="submit" class="form-btn semibold rounded">Enviar Mensaje
-            </button> 
+            <input type="submit" id="button" value="Enviar mensaje" > 
           </div>
           <div class="clear">
           </div>
@@ -216,6 +215,34 @@
     easing: "easeOutExpo",
     delay: 1000
   });
-  </script>
+</script>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+  emailjs.init('Q2p5al_FARTln-wNC')
+</script>
+<script>
+  const btn = document.getElementById('button');
+
+document.getElementById('form-btn')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Enviando...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_2xqnum2';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Enviar mensaje';
+      alert('Enviado!');
+    }, (err) => {
+      btn.value = 'Enviar mensaje';
+      alert(JSON.stringify(err));
+    });
+});
+</script>
   </body>
 </html>    

@@ -6,8 +6,6 @@
   box-sizing: border-box;
 }
 
-
-
 .bodyindex {
   font-family: 'Arima', sans-serif;
   background-color: #B2C8DF;
@@ -134,14 +132,14 @@
   transition: all 0.4s;
 }
 
-.form:hover {
-  border:1px solid #8BC3A3;
+#button:hover {
+  border:2px solid #8BC3A3;
 }
 
-.form:focus {
+#button:focus {
   color: white;
   outline: none;
-  border:1px solid #8BC3A3;
+  border:2px solid #8BC3A3;
 }
 
 .textarea {
@@ -152,24 +150,24 @@
 
 /* Generic Button Styles */
 
-.button {
+#button {
+  color: white;
   padding:8px 12px;
-  background:#0A5175;
+  background:#4b667b;
   display: block;
-  width:120px;
+  width:150px;
   margin:10px 0 0px 0;
-  border-radius:3px;
+  border-radius:10px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  text-align:center;
   font-size:0.8em;
   box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-  -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -moz-box-shadow: 2px 3px 4px rgba(0,0,0, 0.10);
   -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
 }
 
-.button:hover {
+#button:hover {
   background:#8BC3A3;
   color:white;
 }
