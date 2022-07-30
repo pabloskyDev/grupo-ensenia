@@ -34,8 +34,18 @@
   font-family: 'Arima', sans-serif;
   background-color: #FAEEE9;
 }
-
-
+ .imgsCarrousel2{
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom:60px;
+  border-radius: 50px;
+  box-shadow: 3px 2px 5px #F0DFF5
+ }
+ #fondosec3{
+  background-image: url(../img/fondosec3quienes.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+ }
 
 /*colores fondo navbar*/
 .bg-nav {
@@ -58,6 +68,9 @@
 }
 .bg-quienessomos {
   background-color:#FF8B01;
+}
+.bg-quienessomos2 {
+  background-color:#FAEEE9;
 }
 .bg-canales {
   background-color:#FF5703;
@@ -252,6 +265,7 @@ input {
   display: inline-block;
   line-height: 1em;
 }
+
 /* animacion Titulos profesores*/
 .ml15 {
   font-weight: 800;
