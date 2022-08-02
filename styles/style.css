@@ -47,6 +47,7 @@
   background-repeat: no-repeat;
  }
 
+
 /*colores fondo navbar*/
 .bg-nav {
   background-color: #4D4C7D;
@@ -288,8 +289,9 @@ input {
 /* Niveles educativos*/
 .Niveles {
   display: grid;
-  gap: 6px;
-  padding: 6px;
+  gap: 20px;
+  padding: 50px;
+
 }
 .Niveles #TituloNivel{
   background-color: #ca65e4;
@@ -297,17 +299,21 @@ input {
   border-radius: 80px;
 }
 .Niveles #nivel1{
+  width: 50vw;
   background-color: #FF8B01;
   border-style: solid;
   border-radius: 80px;
   grid-template-columns: 30% 70%;
 }
 .Niveles #nivel2{
+  width: 50vw;
   background-color: #06b7d9;
   border-style: solid;
   border-radius: 80px;
+  margin-left: auto;
 }
 .Niveles #nivel3{
+  width: 50vw;
   background-color: #8584df;
   border-style: solid;
   border-radius: 80px;
