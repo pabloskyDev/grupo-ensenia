@@ -34,6 +34,7 @@
   font-family: 'Arima', sans-serif;
   background-color: #FAEEE9;
 }
+
  .imgsCarrousel2{
   height: 500px;
   margin-top: 20px;
@@ -94,6 +95,12 @@
 }
 .color-rojo {
   color: #f00 !important;
+}
+#fondosecpsordos{
+  background-image:url(../img/fondoSecPsordos.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*estilos contactanos*/
@@ -187,13 +194,13 @@
 }
 .imgprofesordo{
   height: 600px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
+  
+  
 }
 .imgprofe{
-  height: 450px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
+  height: 500px;
+  border-radius: 30px;
+  
 }
 .imginterprete{
   height: 300px;
@@ -270,7 +277,7 @@ input {
 /* animacion Titulos profesores*/
 .ml15 {
   font-weight: 800;
-  font-size: 3em;
+  font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
