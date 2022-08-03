@@ -53,22 +53,22 @@
       </h1>
     <br>
     <div class="row" id="fondosecpsordos" >
-        <div class="boxprofesordo col-md-4 pt-3">
+        <div class="boxprofesordo col-md-4 pt-3" id="boxps1">
           <img class="imgprofesordo" src="./img/PROFE BLADIMIR CLAROS_sombra.png" alt="imagen profe sordo1">
           <p class="fs-3" >"Tu puedes desarrollar la capacidad de comunicarte con personas sordas"</p>
         </div>
-        <div class="boxprofesordo col-md-4 align-self-center pt-3">
+        <div class="boxprofesordo col-md-4 align-self-center pt-3" id="boxps2">
           <img class="imgprofesordo align-self-end" src="./img/PROFESOR MODELO JUAN E_sombra.png" alt="Imagen profe sordo modelo">
           <p class="fs-3"> <strong>"Nos esforzamos por eliminar las barreras en la comunicación  entre sordos y oyentes..."</strong></p>
         </div>
-        <div class="boxprofesordo col-md-4 pt-3">
+        <div class="boxprofesordo col-md-4 pt-3" id="boxps3">
           <img class="imgprofesordo " src="./img/PROFE JULIAN DIAZ_sombra.png" alt="imagen profe sordo1">
           <p class="fs-3">¿Estas preparado para la discapacidad?"</p>
         </div>
     </div>
 </div>
 <br>
-<div class="container-fluid text-center bg-nav text-light pt-3">
+<div class="container-fluid text-center bg-nav text-light pt-3" id="fondoprof1" >
     <h1 class="ml15">
         <span class="word">Profesores</span>
       </h1>
@@ -156,16 +156,16 @@
 
     <!-- Right -->
     <div>
-      <a href="" class="me-4 ">
-        <img src="./img/FaceBookIcono.png" alt="" id="icono">
+      <a href="https://www.facebook.com/Academiagrupoensena" class="me-4" target="_blank">
+        <img src="./img/FaceBookIcono.png" "alt="" id="icono">
       </a>
-      <a href="" class="me-4 ">
+      <a href="https://www.youtube.com/channel/UCTPSNqkxu2zpYMtz4L0GJ2g/videos" class="me-4" target="_blank" >
         <img src="./img/youtubeIcono.png" alt="" id="icono">
       </a>
-      <a href="" class="me-4 ">
+      <a href="https://wa.me/573244319079" class="me-4" target="_blank" >
         <img src="./img/waspaIcono.png" alt="" id="icono">
       </a>
-      <a href="" class="me-4 ">
+      <a href="https://www.instagram.com/educ.incluyente/?hl=es" class="me-4 " target="_blank" >
         <img src="./img/InstagramIcono.png" alt="" id="icono">
       </a>
     </div>
@@ -258,6 +258,39 @@
     delay: 2000
   });
   </script>
+
+   <script>
+    window.sr = ScrollReveal();
+    sr.reveal('#boxps1',{
+        duration:2000,
+        origin: 'left',
+        distance:'50px'
+    });    
+  </script>
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('#boxps2',{
+        duration:2000,
+        origin: 'top',
+        distance:'100px'
+    });   
+  </script>
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('#boxps3',{
+        duration:2000,
+        origin: 'right',
+        distance:'50px'
+    });    
+  </script>
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('#fondoprof1',{
+        duration:2000,
+        origin: 'left',
+        distance:'50px'
+    });    
+  </script>
   <script>
     // Wrap every letter in a span
     var textWrapper = document.querySelector('.ml .letters');
@@ -278,5 +311,7 @@
     delay: 1000
   });
   </script>
-  </body>
+    
+
+</body>
 </html>
