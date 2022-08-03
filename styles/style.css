@@ -36,7 +36,7 @@
 }
 
  .imgsCarrousel2{
-  height: 500px;
+  height: 700px;
   margin-top: 20px;
   margin-bottom:60px;
   border-radius: 50px;
@@ -98,6 +98,12 @@
 }
 #fondosecpsordos{
   background-image:url(../img/fondoSecPsordos.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#fondoInterpretes{
+  background-image:url(../img/FondoSeñasInterpetes.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -301,33 +307,64 @@ input {
 
 }
 .Niveles #TituloNivel{
-  background-color: #ca65e4;
-  border-style: solid;
-  border-radius: 80px;
+  background-color:#4b667b;
+  border-radius: 50px;
+  color: white;
+  padding: 20px;
 }
 .Niveles #nivel1{
   width: 50vw;
-  background-color: #FF8B01;
-  border-style: solid;
-  border-radius: 80px;
+  background-color: #FF5703;
+  opacity: 80%;
+  border-radius: 70px;
   grid-template-columns: 30% 70%;
+  box-shadow: 5px 5px 8px #faa67c;
+  padding: 20px;
 }
+.imglevel1{
+  margin-left: 65%;
+  margin-top: 14%;
+  height: 200px;
+}
+
+.imglevel2{
+  margin-top: 32%;
+  height: 200px;
+  margin-left: 10%;
+}
+
+.imglevel3{
+  margin-left: 65%;
+  margin-top: 52%;
+  height: 200px;
+}
+
 .Niveles #nivel2{
   width: 50vw;
   background-color: #06b7d9;
-  border-style: solid;
-  border-radius: 80px;
+  border-radius: 70px;
   margin-left: auto;
+  opacity: 80%;
+  box-shadow: 5px 5px 8px #87e8fc;
+  padding: 20px;
 }
 .Niveles #nivel3{
   width: 50vw;
-  background-color: #8584df;
-  border-style: solid;
+  background-color: #FF8B01;
+  opacity: 80%;
   border-radius: 80px;
+  box-shadow: 5px 5px 8px #fcc480;
+  padding: 20px;
+}
+
+.levelicon{
+  box-shadow: 5px 5px 8px #1b1616;
+  margin-right: 10px;
 }
 .Niveles b{
-  font-size: 25px;  
+  font-size: 25px; 
 }
+
 .Niveles h2{
   text-align: center;
   font: bolder; 
