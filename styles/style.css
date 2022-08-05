@@ -16,7 +16,9 @@
 }
 .bodyniveles {
   font-family: 'Arima', sans-serif;
-  background-color: #F0DFF5;
+  background-image:url(../img/imgFondoNiveles.png);
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 .bodycanales {
   font-family: 'Arima', sans-serif;
@@ -24,7 +26,7 @@
 }
 .bodyestudiantes {
   font-family: 'Arima', sans-serif;
-  background-color: #D9F9FF;
+  background-color: #f8f2fa;
 }
 .bodycolaboradores {
   font-family: 'Arima', sans-serif;
@@ -32,9 +34,21 @@
 }
 .bodyquienessomos {
   font-family: 'Arima', sans-serif;
-  background-color: #FEE4D6;
+  background-color: #FAEEE9;
 }
 
+ .imgsCarrousel2{
+  height: 700px;
+  margin-top: 20px;
+  margin-bottom:60px;
+  border-radius: 50px;
+  box-shadow: 3px 2px 5px #F0DFF5
+ }
+ #fondosec3{
+  background-image: url(../img/fondosec3quienes.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+ }
 
 
 /*colores fondo navbar*/
@@ -44,7 +58,7 @@
 .bg-contact {
   background-color: #4b667b;
 }
-.bg-card1 {
+.bg-estudiantes {
   background-color:#812E95;
 }
 .bg-card2 {
@@ -53,11 +67,14 @@
 .bg-card3 {
   background-color:#4b667b;
 }
-.bg-estudiantes {
+.bg-niveles {
   background-color:#06b7d9;
 }
 .bg-quienessomos {
   background-color:#FF8B01;
+}
+.bg-quienessomos2 {
+  background-color:#FAEEE9;
 }
 .bg-canales {
   background-color:#FF5703;
@@ -80,6 +97,18 @@
 }
 .color-rojo {
   color: #f00 !important;
+}
+#fondosecpsordos{
+  background-image:url(../img/fondoSecPsordos.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#fondoInterpretes{
+  background-image:url(../img/FondoSeñasInterpetes.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*estilos contactanos*/
@@ -132,14 +161,14 @@
   transition: all 0.4s;
 }
 
-.form:hover {
-  border:1px solid #8BC3A3;
+#button:hover {
+  border:2px solid #8BC3A3;
 }
 
-.form:focus {
+#button:focus {
   color: white;
   outline: none;
-  border:1px solid #8BC3A3;
+  border:2px solid #8BC3A3;
 }
 
 .textarea {
@@ -150,36 +179,36 @@
 
 /* Generic Button Styles */
 
-.button {
+#button {
+  color: white;
   padding:8px 12px;
-  background:#0A5175;
+  background:#4b667b;
   display: block;
-  width:120px;
+  width:150px;
   margin:10px 0 0px 0;
-  border-radius:3px;
+  border-radius:10px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  text-align:center;
   font-size:0.8em;
   box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-  -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -moz-box-shadow: 2px 3px 4px rgba(0,0,0, 0.10);
   -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
 }
 
-.button:hover {
+#button:hover {
   background:#8BC3A3;
   color:white;
 }
 .imgprofesordo{
   height: 600px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
+  
+  
 }
 .imgprofe{
-  height: 450px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
+  height: 500px;
+  border-radius: 30px;
+  
 }
 .imginterprete{
   height: 300px;
@@ -190,6 +219,10 @@
   height: 400px;
   border-radius: 10px;
   box-shadow: 3px 2px 5px #a2a1a1;
+}
+.cardgif{
+  align-items: center;
+  
 }
 /* Send Button Styles */
 
@@ -248,10 +281,11 @@ input {
   display: inline-block;
   line-height: 1em;
 }
+
 /* animacion Titulos profesores*/
 .ml15 {
   font-weight: 800;
-  font-size: 3em;
+  font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
@@ -266,3 +300,171 @@ input {
 #icono {
   width: 5%;
 }
+
+/* Niveles educativos*/
+.Niveles {
+  display: grid;
+  gap: 20px;
+  padding: 50px;
+
+}
+.Niveles #TituloNivel{
+  background-color:#4b667b;
+  opacity: 80%;
+  border-radius: 50px;
+  color: white;
+  padding: 20px;
+}
+.Niveles #nivel1{
+  width: 50vw;
+  background-color: #FF5703;
+  opacity: 80%;
+  border-radius: 70px;
+  grid-template-columns: 30% 70%;
+  box-shadow: 5px 5px 8px #faa67c;
+  padding: 20px;
+}
+.imglevel1{
+  margin-left: 65%;
+  margin-top: 14%;
+  height: 200px;
+}
+
+.imglevel2{
+  margin-top: 32%;
+  height: 200px;
+  margin-left: 10%;
+}
+
+.imglevel3{
+  margin-left: 65%;
+  margin-top: 52%;
+  height: 200px;
+}
+
+.Niveles #nivel2{
+  width: 50vw;
+  background-color: #06b7d9;
+  border-radius: 70px;
+  margin-left: auto;
+  opacity: 80%;
+  box-shadow: 5px 5px 8px #87e8fc;
+  padding: 20px;
+}
+.Niveles #nivel3{
+  width: 50vw;
+  background-color: #FF8B01;
+  opacity: 80%;
+  border-radius: 80px;
+  box-shadow: 5px 5px 8px #fcc480;
+  padding: 20px;
+}
+#marcoltop{
+  height: 800px;
+}
+#marcolbot{
+  display: flex;
+  margin-top: 14%; 
+}
+#collapiz{
+  height: 550px;
+  background-image: url(../img/imglapizniveles.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.textlapiz{
+  text-align: center;
+}
+
+#tl-1{
+  color: #fff;
+  padding: 50px 0 50px 0;
+  
+}
+#tl-2{
+  font-weight:bold;
+  color: #000;
+  padding: 30px 20px;
+}
+
+#collapiz1{
+  height: 550px;
+  background-image: url(../img/lapiz1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+#tl1-1{
+  color: #000;
+  padding: 160px 12px 20px 12px;
+  
+}
+#tl1-2{
+  font-weight:bold;
+  color: #fff;
+  padding: 10px 20px;
+}
+.plapiz1{
+  margin: 0;
+}
+
+#collapiz2{
+  text-align: center;
+  height: 550px;
+  background-image: url(../img/lapiz2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#tl2-1{
+  color: #fff;
+  padding: 20px 0 10px 0;
+  
+}
+#tl2-2{
+  padding: 20px 30px 0 30px;
+  color: #000;
+}
+
+#collapiz3{
+  height: 550px;
+  background-image: url(../img/lapiz3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#tl3-1{
+  color: #000;
+  padding: 180px 20px 20px 20px;
+  
+}
+#tl3-2{
+  font-weight:bold;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+
+.levelicon{
+  box-shadow: 5px 5px 8px #1b1616;
+  margin-right: 10px;
+}
+.Niveles b{
+  font-size: 25px; 
+}
+
+.Niveles h2{
+  text-align: center;
+  font: bolder; 
+}
+.Niveles p {
+  text-align: center;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Niveles img{
+  border-radius: 50px;
+}
+/* Fin Niveles educativos*/
