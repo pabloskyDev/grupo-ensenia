@@ -16,7 +16,9 @@
 }
 .bodyniveles {
   font-family: 'Arima', sans-serif;
-  background-color: #F0DFF5;
+  background-image:url(../img/imgFondoNiveles.png);
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 .bodycanales {
   font-family: 'Arima', sans-serif;
@@ -24,7 +26,7 @@
 }
 .bodyestudiantes {
   font-family: 'Arima', sans-serif;
-  background-color: #D9F9FF;
+  background-color: #f8f2fa;
 }
 .bodycolaboradores {
   font-family: 'Arima', sans-serif;
@@ -56,7 +58,7 @@
 .bg-contact {
   background-color: #4b667b;
 }
-.bg-card1 {
+.bg-estudiantes {
   background-color:#812E95;
 }
 .bg-card2 {
@@ -65,7 +67,7 @@
 .bg-card3 {
   background-color:#4b667b;
 }
-.bg-estudiantes {
+.bg-niveles {
   background-color:#06b7d9;
 }
 .bg-quienessomos {
@@ -308,6 +310,7 @@ input {
 }
 .Niveles #TituloNivel{
   background-color:#4b667b;
+  opacity: 80%;
   border-radius: 50px;
   color: white;
   padding: 20px;
@@ -356,6 +359,93 @@ input {
   box-shadow: 5px 5px 8px #fcc480;
   padding: 20px;
 }
+#marcoltop{
+  height: 800px;
+}
+#marcolbot{
+  display: flex;
+  margin-top: 14%; 
+}
+#collapiz{
+  height: 550px;
+  background-image: url(../img/imglapizniveles.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.textlapiz{
+  text-align: center;
+}
+
+#tl-1{
+  color: #fff;
+  padding: 50px 0 50px 0;
+  
+}
+#tl-2{
+  font-weight:bold;
+  color: #000;
+  padding: 30px 20px;
+}
+
+#collapiz1{
+  height: 550px;
+  background-image: url(../img/lapiz1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+#tl1-1{
+  color: #000;
+  padding: 160px 12px 20px 12px;
+  
+}
+#tl1-2{
+  font-weight:bold;
+  color: #fff;
+  padding: 10px 20px;
+}
+.plapiz1{
+  margin: 0;
+}
+
+#collapiz2{
+  text-align: center;
+  height: 550px;
+  background-image: url(../img/lapiz2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#tl2-1{
+  color: #fff;
+  padding: 20px 0 10px 0;
+  
+}
+#tl2-2{
+  padding: 20px 30px 0 30px;
+  color: #000;
+}
+
+#collapiz3{
+  height: 550px;
+  background-image: url(../img/lapiz3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#tl3-1{
+  color: #000;
+  padding: 180px 20px 20px 20px;
+  
+}
+#tl3-2{
+  font-weight:bold;
+  color: #fff;
+  padding: 10px 20px;
+}
+
 
 .levelicon{
   box-shadow: 5px 5px 8px #1b1616;
