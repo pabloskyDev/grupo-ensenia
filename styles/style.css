@@ -38,20 +38,62 @@
   background-color: #FAEEE9;
 }
 
- .imgsCarrousel2{
-  height: 70vh;
-  margin-top: 20px;
+ .imgsCarousel2{
+  height: 60vh;
+  margin-top: 10px;
   margin-bottom:60px;
   border-radius: 50px;
-  box-shadow: 3px 2px 5px #F0DFF5
  }
  #fondosec3{
   background-image: url(../img/fondosec3quienes.png);
-  background-size:cover;
+  background-size:contain;
   background-repeat: no-repeat;
+  background-position: center;
+ }
+ #fondosec4Q{
+  background-image: url(../img/fondosec4quienes.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
  }
 
+ #boxtituMision{
+  height: auto;
+  background-image: url(../img/imgTitulomision.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+ }
+ 
+ 
+ #boxtituVision{
+  height: auto;
+  background-image: url(../img/imgTituloVision.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+ }
+ 
+ #boxtituObjetivo{
+  height: auto;
+  background-image: url(../img/imgTituloObjetivos.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+ }
+ 
+ #boxtituValores{
+  height: auto;
+  background-image: url(../img/imgTituloValores.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+ }
 
+ .boxh2:nth-child(1){
+  text-align:center;
+  text-shadow: 3px 2px 5px #262b33;
+ }
+ .boxp:nth-child(1){
+  font-weight: bold;
+ }
+ 
 /*colores fondo navbar*/
 .bg-nav {
   background-color: #4D4C7D;
@@ -102,16 +144,39 @@
 #fondosecpsordos{
   background-image:url(../img/fondoSecPsordos.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 #fondoInterpretes{
   background-image:url(../img/FondoSeñasInterpetes.png);
+  background-position: center;
+  background-size:contain;
+}
+#fondosecdir{
+  background-image: url(../img/fondosecEquipoAdmin.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+#secfinalQuienes{
+  background-color: #3c4453;
+}
+#boxdir1{
+  height: 600px;
+}
+
+.imgdir{
+  width: 300px;
+  padding-top: 10px; 
+}
+.fondodir{
+  border: solid 5px #c8c9ca;
+  width: 350px;
+  height:100%;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
 /*estilos contactanos*/
 #contact {
   padding:10px 0 10px;
@@ -202,22 +267,21 @@
   color:white;
 }
 .imgprofesordo{
-  height: 600px;
-  
-  
+  height: 600px; 
 }
 .imgprofe{
-  height: 60vh;
   border-radius: 30px;
-  
+  width: 400px;
+  height: auto;
+  margin: 20px; 
 }
 .imginterprete{
-  height: 300px;
+  height: 200px;
   border-radius: 10px;
   box-shadow: 3px 2px 5px #a2a1a1;
 }
 .imginterpretesemi{
-  height: 400px;
+  height: 300px;
   border-radius: 10px;
   box-shadow: 3px 2px 5px #a2a1a1;
 }
@@ -225,6 +289,17 @@
   align-items: center;
   
 }
+
+/* seccion coordinadores*/
+#fondocordi{
+  border-radius: 200px;
+  height: 650px;
+}
+.imgcordi{
+  border-radius:180px;
+  padding-bottom: 10px;
+}
+
 /* Send Button Styles */
 
 .form-btn {
