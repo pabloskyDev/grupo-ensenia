@@ -37,13 +37,34 @@
   background-color: #FAEEE9;
 }
 
+/* Pag Colaoradores */
+
  .imgsCarrousel2{
-  height: 600px;
+  height: 60vh;
   margin-top: 20px;
   margin-bottom:60px;
   border-radius: 50px;
   box-shadow: 3px 2px 5px #F0DFF5
  }
+ .imgprofe{
+  height: 50vh;
+  border-radius: 25px;
+}
+.imginterprete{
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px #a2a1a1;
+}
+.imginterpretesemi{
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px #a2a1a1;
+}
+.imgprofesordo{
+  height: 450px;
+}
+ /* Fin Pag Colabradores */
+
  #fondosec3{
   background-image: url(../img/fondosec3quienes.png);
   background-size:cover;
@@ -200,26 +221,9 @@
   background:#8BC3A3;
   color:white;
 }
-.imgprofesordo{
-  height: 100px;
-  
-  
-}
-.imgprofe{
-  height: 60vh;
-  border-radius: 30px;
-  
-}
-.imginterprete{
-  height: 300px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
-}
-.imginterpretesemi{
-  height: 400px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
-}
+
+
+
 .cardgif{
   align-items: center;
   
@@ -284,7 +288,7 @@ input {
 
 /* animacion Titulos profesores*/
 .ml15 {
-  font-weight: 800;
+  font-weight: 800px;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -295,8 +299,10 @@ input {
   line-height: 1em;
 }
 
-/* Style Footer */
+/*  Footer */
 
 #icono {
   width: 5%;
 }
+
+/* Fin Footer */
