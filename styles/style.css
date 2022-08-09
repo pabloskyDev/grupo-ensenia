@@ -10,11 +10,28 @@
   font-family: 'Arima', sans-serif;
   background-color: #B2C8DF;
 }
+
+.card-img-top1{
+  border-radius: 40px;
+  box-shadow: 3px 2px 5px #a2a1a1;
+  
+
+}
 .card{
   border-radius: 40px;
 }
+
+#containerVideos{
+  background-image: url(../img/fodosecvideosindex.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+}
 #boxvideo{
   border-radius: 40px;
+  border: solid 5px #4D4C7D;
+  margin: 10px;
+  border-style:double;
 }
 .bodycontactanos {
   font-family: 'Arima', sans-serif;
