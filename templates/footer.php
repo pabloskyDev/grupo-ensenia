@@ -2,9 +2,6 @@
     <div class="me-5 d-none d-lg-block display-8">
       <span>Conectate con Nosotros:</span>
     </div>
-    <!-- Left -->
-
-    <!-- Right -->
     <div>
       <a href="" class="me-4 ">
         <img src="../img/FaceBookIcono.png" alt="" id="icono">
@@ -52,13 +49,7 @@
             Useful links
           </h6>
           <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
             <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Help</a>
@@ -68,18 +59,18 @@
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <p><i class="fas fa-home me-3"></i> Medellín, Ant, Col</p>
+          <p><i class="fas fa-home me-3"></i> Envigado, Ant, Col</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            info@example.com
+            Grupoensena@gmail.com
           </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3"></i>Fijo - 604 298 84 30</p>
+          <p><i class="fas fa-print me-3"></i>Cel - 324 431 90 79</p>
         </div>
       </div>
     </div>
   </section>
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2022 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">GrupoEnseña.com</a>
+  <div class="text-center p-4" style="background-color: rgba(8, 8, 8, 0.308);">
+    © 2022 Copyright -
+    <a class="text-muted reset fw-bold" href="./index.html"> GrupoEnseña.com</a>
   </div>
