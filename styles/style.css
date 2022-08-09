@@ -417,4 +417,8 @@ input {
   margin-right: 10px;
 }
 
-
+.barra-lateral {
+  position: fixed;
+  top: 40%;
+  right: 2px;
+}
