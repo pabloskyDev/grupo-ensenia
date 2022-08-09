@@ -10,6 +10,12 @@
   font-family: 'Arima', sans-serif;
   background-color: #B2C8DF;
 }
+.card{
+  border-radius: 40px;
+}
+#boxvideo{
+  border-radius: 40px;
+}
 .bodycontactanos {
   font-family: 'Arima', sans-serif;
   background-color: #B2C8DF;
@@ -185,6 +191,9 @@
   background-color: #3c4453;
 }
 #boxdir1{
+  height: 600px;
+}
+#boxdir2{
   height: 600px;
 }
 
