@@ -436,7 +436,7 @@ input {
 
 .barra-lateral {
   position: fixed;
-  z-index: 99px;
+  z-index: 101px;
   top: 40%;
   right: 2px;
 }
@@ -457,21 +457,20 @@ input {
 }
 
 #estudiantes-cards {
-  background-color: #B2C8DF;
-  height: 90vh;
+  position: relative;
+  background-color: #06b7d92e;
+  height: 75vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .cards-wrapper {
-  display: flex;
+  position: relative;
 }
 
 .cards-wrapper .card {
   overflow: hidden;
 }
-
-
 
 /* Fin canales -estudiantes */
