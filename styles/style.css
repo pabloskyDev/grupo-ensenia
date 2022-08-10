@@ -441,7 +441,7 @@ input {
   right: 2px;
 }
 
-/* Inicio canales */
+/* Inicio canales -estudiantes */
 #canal-virtual .col-lg-4, #canal-cursos .col-lg-4 , #canal-videos .col-lg-6 {
   padding: 10px;
 }
@@ -456,5 +456,17 @@ input {
   box-shadow: rgba(253, 207, 181, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+.cards-wrapper {
+  display: flex;
+  gap: .5em;
+}
 
-/* Fin canales */
+.cards-wrapper .card {
+  margin: 2em auto;
+  padding: 0.5em ;
+  overflow: hidden;
+}
+
+
+
+/* Fin canales -estudiantes */
