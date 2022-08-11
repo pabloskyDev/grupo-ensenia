@@ -457,7 +457,7 @@ input {
 }
 
 .section-base {
-  position: relative;
+  position: inherit;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -465,22 +465,22 @@ input {
 
 #canal-virtual {
   background: linear-gradient(#bd171175,#d16111a9);
-  height: 70vh;
+  height: auto;
 }
 
 #canal-cursos {
   background: linear-gradient(#d16111a9,#db8c0cca);
-  height: 100vh;
+  height: auto;
 }
 
 #canal-videos {
   background: linear-gradient(#db8c0cca,#b5d85ca9);
-  height: 60vh;
+  height: auto;
 }
 
 #estudiantes-cards__graduados {
   background: linear-gradient(#0c8ba475,#4a22b8a9);
-  height: 60vh;
+  height: auto;
 }
 
 .cards-wrapper {
@@ -493,7 +493,7 @@ input {
 
 #estudiantes-intereses {
   background: linear-gradient(#4a22b8a9, #10a7afa9);
-  height: 60vh;
+  height: auto;
 }
 
 .intereses-img img{
@@ -513,7 +513,7 @@ input {
 
 #estudiantes-online {
   background: linear-gradient(#10a7afa9, #11aa56a9);
-  height: 60vh;
+  height: auto;
 }
 
 .online-img img, .semillero-img img{
@@ -528,7 +528,7 @@ input {
 
 #estudiantes-semillero {
   background: linear-gradient(#11aa56a9, #59bc17a9);
-  height: 50vh;
+  height: auto;
 }
 
 /* Fin canales -estudiantes */
