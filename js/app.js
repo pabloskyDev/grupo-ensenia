@@ -24,7 +24,7 @@ function cargarScrollRevealIndex(sr) {
     });
 }
 
-function textWrapperIndex() {
+function textWrapper() {
     // Wrap every letter in a span
     var textWrapper = document.querySelector('.ml .letters');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
