@@ -8,25 +8,21 @@
 
 .bodyindex {
   font-family: 'Arima', sans-serif;
-  background-color: #B2C8DF;
+  background: linear-gradient(#B2C8DF, #3e88d7, #7cc04ea9, #3e88d7);
+  /* background-color: #B2C8DF; */
 }
 
 .card-img-top1{
   border-radius: 40px;
   box-shadow: 3px 2px 5px #a2a1a1;
-  
+  align-self: flex-start;
+  justify-content: start;
 
 }
 .card{
   border-radius: 40px;
 }
 
-#containerVideos{
-  background-image: url(../img/fodosecvideosindex.png);
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position:center;
-}
 #boxvideo{
   border-radius: 40px;
   border: solid 5px #4D4C7D;
