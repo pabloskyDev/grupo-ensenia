@@ -249,16 +249,15 @@
 <br>
   </div>
 </div> 
-  <!-- <div class="barra-lateral">
-    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-      <div class="btn-group-vertical me-2" role="group" aria-label="group">
-        <button type="button" class="btn btn-secondary">5</button>
-        <button type="button" class="btn btn-secondary">6</button>
-        <button type="button" class="btn btn-secondary">7</button>
-        <button type="button" class="btn btn-secondary">8</button>
-      </div>
+<div class="barra-lateral">
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group-vertical me-2" role="group" aria-label="group">
+      <button type="button" class="btn btn-light"><img src="img/icons/brightness-high.svg" class="bi bi-brightness-high"></button>
+      <button type="button" class="btn btn-light"><img src="img/icons/zoom-in.svg" class="bi bi-zoom-in"></button>
+      <button type="button" class="btn btn-light"><img src="img/icons/zoom-out.svg" class="bi bi-zoom-out"></button>
     </div>
-  </div>  -->
+  </div>
+</div>
 <br>
 <!-- Footer -->
 <footer class="text-center bg-quienessomos text-muted ">
@@ -302,7 +301,7 @@
       </div>
     </div>
   </section>
-  <section id="redes-footer" class="container-fluid p-2 border-bottom">
+  <section id="redes-footer" class="container p-2 border-bottom">
     <div class="row">
       <div class="col-md-4 col-sm-4 col-xs-4"></div>
       <div class="col-md-4 col-sm-4 col-xs-4 d-flex">
@@ -335,23 +334,7 @@
 
   <!-- Wrap every letter in a span -->
   <script>
-    var textWrapper = document.querySelector('.ml .letters');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-   anime.timeline({loop: true})
-   .add({
-    targets: '.ml .letter',
-    scale: [0, 1],
-    duration: 2500,
-    elasticity: 800,
-    delay: (el, i) => 100 * (i+1)
-   }).add({
-    targets: '.ml',
-    opacity: 0,
-    duration: 2000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
+    textWrapper();
   </script>
   </body>
 </html>
