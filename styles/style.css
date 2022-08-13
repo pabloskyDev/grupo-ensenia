@@ -55,7 +55,8 @@
 }
 .bodyquienessomos {
   font-family: 'Arima', sans-serif;
-  background-color: #FAEEE9;
+  background: linear-gradient(#fff, #FAEEE9, #802e95a1, #FAEEE9, #fff);
+  
 }
 
 /* Pag Colaoradores */
