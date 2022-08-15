@@ -74,6 +74,29 @@ function cargarScrollRevealCanales(sr) {
     });
 }
 
+function cargarScrollRevealColaboradores(sr) {
+    sr.reveal('#boxps1',{
+        duration:2000,
+        origin: 'left',
+        distance:'50px'
+    });
+    sr.reveal('#boxps2',{
+        duration:2000,
+        origin: 'top',
+        distance:'100px'
+    });
+    sr.reveal('#boxps3',{
+        duration:2000,
+        origin: 'right',
+        distance:'50px'
+    });
+    sr.reveal('#fondoprof1',{
+        duration:2000,
+        origin: 'left',
+        distance:'50px'
+    });
+}
+
 function textWrapper() {
     // Wrap every letter in a span
     var textWrapper = document.querySelector('.ml .letters');
