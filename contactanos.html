@@ -1,201 +1,169 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contáctanos</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <!-- Menu navegación contactanos -->
-  <body class="bodycontactanos" >
-    <nav class="navbar navbar-expand-lg bg-contact">
-      <div class="container-fluid">
-        <a class="navbar-brand col-md-4 d-flex align-items-center ps-5 m-0" href="index.html">
-          <img src="./img/logoOriginalgris.png" alt="logo" height="100">
-          <h1 class="ml" >
-            <span class="text-wraper">
-              <span class="letters ps-3 text-white fs-4 fw-bold">CONTÁCTANOS</span>
-           </span>
-          </h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse col-md-8" id="navbarSupportedContent">
-          <ul class="navbar-nav col-12 d-flex justify-content-end pe-5 fs-5">
-            <a class="nav-link text-white" href="./niveles.html" >Niveles Educativos</a>
-            <a class="nav-link text-white" href="colaboradores.html">Colaboradores</a>
-            <a class="nav-link  text-white" href="canales.html">Canales</a>
-            <a class="nav-link  text-white" href="quienessomos.html">Quienes Somos</a>
-            <a class="nav-link  text-white" href="estudiantes.html">Estudiantes</a>
-            <a class="nav-link active " href="contactanos.html">Contáctanos</a>
-          </ul>
-        </div>
-      </div>
-    </nav>                
-<br>
-    <div class="inner contact container pt-5">
-      <div class="contact-form">
-        <form id="form-btn">
-          <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
-            <input type="text" name="name" id="name" required="required" class="form" placeholder="Nombre">
-            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Correo Electrónico">
-            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Tema o asunto">
-          </div>
-          <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
-            <textarea name="message" id="message" class="form textarea"  placeholder="Mensaje">
-            </textarea>
-          </div>
-          <div class="relative fullwidth col-xs-12">
-            <input type="submit" id="button" value="Enviar mensaje" > 
-          </div>
-          <div class="clear">
-          </div>
-        </form>
-        <div class="mail-message-area">
-          <div class="alert gray-bg mail-message not-visible-message">
-            <strong>Muchas gracias</strong> Su mensaje ha sido enviado.
-          </div>
-        </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contáctanos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<!-- Menu navegación contactanos -->
+<body class="bodycontactanos" >
+  <nav class="navbar navbar-expand-lg bg-contact">
+    <div class="container-fluid">
+      <a class="navbar-brand col-md-4 d-flex align-items-center ps-5 m-0" href="index.html">
+        <img src="./img/logoOriginalgris.png" alt="logo" height="100">
+        <h1 class="ml" >
+          <span class="text-wraper letters ps-3 text-white fs-4 fw-bold">CONTÁCTANOS</span>
+        </h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navHeaderContacto" aria-controls="navHeaderContacto" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse col-md-8" id="navHeaderContacto">
+        <ul class="navbar-nav col-12 d-flex justify-content-end pe-5 fs-5">
+          <a class="nav-link text-white" href="./niveles.html" >Niveles Educativos</a>
+          <a class="nav-link text-white" href="colaboradores.html">Colaboradores</a>
+          <a class="nav-link  text-white" href="canales.html">Canales</a>
+          <a class="nav-link  text-white" href="quienessomos.html">Quienes Somos</a>
+          <a class="nav-link  text-white" href="estudiantes.html">Estudiantes</a>
+          <a class="nav-link active " href="contactanos.html">Contáctanos</a>
+        </ul>
       </div>
     </div>
-    <section id="contactanos-mapa">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15867.186193158304!2d-75.595968!3d6.1579973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa76719e4f66be40!2sUrbanizaci%C3%B3n%20Balc%C3%B3n%20de%20la%20Raza!5e0!3m2!1ses!2sco!4v1660236304499!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <a href="https://www.embedgooglemap.net"></a>
-              </div>
+  </nav>
+  <div class="inner contact container pt-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <section class="contact-form">
+          <form id="form-btn">
+            <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+              <input type="text" name="name" id="name" required="required" class="form" placeholder="Nombre">
+              <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Correo Electrónico">
+              <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Tema o asunto">
             </div>
+            <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+              <textarea name="message" id="message" class="form textarea"  placeholder="Mensaje">
+              </textarea>
+            </div>
+            <div class="relative fullwidth col-xs-12 d-flex justify-content-center">
+              <input type="submit" id="button" value="Enviar mensaje" > 
+            </div>
+            <div class="clear">
+            </div>
+          </form>
+          <div class="mail-message-area">
+            <div class="alert gray-bg mail-message not-visible-message">
+              <strong>Muchas gracias</strong> Su mensaje ha sido enviado.
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center pb-5">
+        <section id="contactanos-mapa">
+          <div class="mapouter col-12">
+            <div class="gmap_canvas">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15867.186193158304!2d-75.595968!3d6.1579973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa76719e4f66be40!2sUrbanizaci%C3%B3n%20Balc%C3%B3n%20de%20la%20Raza!5e0!3m2!1ses!2sco!4v1660236304499!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <a href="https://www.embedgooglemap.net"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>  
+  </div>
+  <div class="barra-lateral">
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group-vertical me-2" role="group" aria-label="group">
+        <button type="button" class="btn btn-light"><img src="img/icons/brightness-high.svg" class="bi bi-brightness-high"></button>
+        <button type="button" class="btn btn-light"><img src="img/icons/zoom-in.svg" class="bi bi-zoom-in"></button>
+        <button type="button" class="btn btn-light"><img src="img/icons/zoom-out.svg" class="bi bi-zoom-out"></button>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="text-center bg-contact text-muted ">
+    <section id="principal-footer" class="pt-3">
+      <div class="container text-center text-md-start text-light">
+        <div class="row mt-3">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mx-auto text-center d-flex flex-column justify-content-start">
+            <h6 class="text-uppercase fw-bold p-2">
+              Grupo Enseña
+            </h6>
+            <p class="p-2">
+              La lengua de Señas es el idioma oficial de las Personas Sordas, 
+              es una lengua que se caracteriza por ser viso-gestual y espacial, 
+              esta fue creada por los mismos usuarios Sordos.
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 mx-auto text-center d-flex flex-column justify-content-start">
+            <h6 class="text-uppercase fw-bold p-2">Servicios</h6>
+            <ul class="p-2 ul-footer">
+              <li><a href="./canales.html" class="text-reset">Clases en vivo</a></li>
+              <li><a href="./canales.html" class="text-reset">Actividades</a></li>
+              <li><a href="./canales.html" class="text-reset">videos</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 mx-auto text-center d-flex flex-column justify-content-start">
+            <h6 class="text-uppercase fw-bold p-2">Atajos</h6>
+            <ul class="p-2 ul-footer">
+              <li><a href="./contactanos.html" class="text-reset">Contactanos</a></li>
+              <li><a href="./index.html" class="text-reset">Inicio</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mx-auto text-center d-flex flex-column justify-content-start">
+            <h6 class="text-uppercase fw-bold p-2">Sobre nosotros</h6>
+            <ul class="p-2 ul-footer">
+              <li><a href="#" class="text-reset">Calle 48C sur Cra. 39A-165 <br><i class="fas fa-home">Envigado - Antioquia</i></a></li>
+              <li class="fas fa-envelope"><a href="#" class="text-reset">grupoensena@gmail.com</a></li>
+              <li class="fas fa-phone"><a href="#" class="text-reset">Fijo - 604 298 84 30</a></li>
+              <li class="fas fa-print"><a href="#" class="text-reset">Cel - 324 431 90 79</a></li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-    <div class="barra-lateral">
-      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-        <div class="btn-group-vertical me-2" role="group" aria-label="group">
-          <button type="button" class="btn btn-light"><img src="img/icons/brightness-high.svg" class="bi bi-brightness-high"></button>
-          <button type="button" class="btn btn-light"><img src="img/icons/zoom-in.svg" class="bi bi-zoom-in"></button>
-          <button type="button" class="btn btn-light"><img src="img/icons/zoom-out.svg" class="bi bi-zoom-out"></button>
+    <section id="redes-footer" class="container p-2 border-bottom">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-4"></div>
+        <div class="col-md-4 col-sm-4 col-xs-4 d-flex">
+          <a href="https://www.facebook.com/Academiagrupoensena" class="m-auto p-1" target="_blank">
+            <img src="./img/FaceBookIcono.png" alt="facebook" class="icono">
+          </a>
+          <a href="https://www.youtube.com/channel/UCTPSNqkxu2zpYMtz4L0GJ2g/videos" class="m-auto p-1" target="_blank" >
+            <img src="./img/youtubeIcono.png" alt="youtube" class="icono">
+          </a>
+          <a href="https://wa.me/573244319079" class="m-auto p-1" target="_blank" >
+            <img src="./img/waspaIcono.png" alt="whatsapp" class="icono">
+          </a>
+          <a href="https://www.instagram.com/educ.incluyente/?hl=es" class="m-auto p-1 " target="_blank" >
+            <img src="./img/InstagramIcono.png" alt="instagram" class="icono">
+          </a>
         </div>
+        <div class="col-md-4 col-sm-4 col-xs-4"></div>
       </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright - <a class="text-muted fw-bold" href="#"> Colaboración estudiantes POLIANDINO - GRUPO ENSEÑA</a>
     </div>
-<!-- Footer -->
-<footer class="text-center bg-contact text-muted ">
-  <section id="principal-footer" class="pt-3">
-    <div class="container text-center text-md-start text-light">
-      <div class="row mt-3">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mx-auto text-center d-flex flex-column justify-content-start">
-          <h6 class="text-uppercase fw-bold p-2">
-            Grupo Enseña
-          </h6>
-          <p class="p-2">
-            La lengua de Señas es el idioma oficial de las Personas Sordas, 
-            es una lengua que se caracteriza por ser viso-gestual y espacial, 
-            esta fue creada por los mismos usuarios Sordos.
-          </p>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 mx-auto text-center d-flex flex-column justify-content-start">
-          <h6 class="text-uppercase fw-bold p-2">Servicios</h6>
-          <ul class="p-2 ul-footer">
-            <li><a href="./canales.html" class="text-reset">Clases en vivo</a></li>
-            <li><a href="./canales.html" class="text-reset">Actividades</a></li>
-            <li><a href="./canales.html" class="text-reset">videos</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 mx-auto text-center d-flex flex-column justify-content-start">
-          <h6 class="text-uppercase fw-bold p-2">Atajos</h6>
-          <ul class="p-2 ul-footer">
-            <li><a href="./contactanos.html" class="text-reset">Contactanos</a></li>
-            <li><a href="./index.html" class="text-reset">Inicio</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mx-auto text-center d-flex flex-column justify-content-start">
-          <h6 class="text-uppercase fw-bold p-2">Sobre nosotros</h6>
-          <ul class="p-2 ul-footer">
-            <li><a href="#" class="text-reset">Calle 48C sur Cra. 39A-165 <br><i class="fas fa-home">Envigado - Antioquia</i></a></li>
-            <li class="fas fa-envelope"><a href="#" class="text-reset">grupoensena@gmail.com</a></li>
-            <li class="fas fa-phone"><a href="#" class="text-reset">Fijo - 604 298 84 30</a></li>
-            <li class="fas fa-print"><a href="#" class="text-reset">Cel - 324 431 90 79</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="redes-footer" class="container p-2 border-bottom">
-    <div class="row">
-      <div class="col-md-4 col-sm-4 col-xs-4"></div>
-      <div class="col-md-4 col-sm-4 col-xs-4 d-flex">
-        <a href="https://www.facebook.com/Academiagrupoensena" class="m-auto p-1" target="_blank">
-          <img src="./img/FaceBookIcono.png" alt="facebook" class="icono">
-        </a>
-        <a href="https://www.youtube.com/channel/UCTPSNqkxu2zpYMtz4L0GJ2g/videos" class="m-auto p-1" target="_blank" >
-          <img src="./img/youtubeIcono.png" alt="youtube" class="icono">
-        </a>
-        <a href="https://wa.me/573244319079" class="m-auto p-1" target="_blank" >
-          <img src="./img/waspaIcono.png" alt="whatsapp" class="icono">
-        </a>
-        <a href="https://www.instagram.com/educ.incluyente/?hl=es" class="m-auto p-1 " target="_blank" >
-          <img src="./img/InstagramIcono.png" alt="instagram" class="icono">
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-4 col-xs-4"></div>
-    </div>
-  </section>
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2022 Copyright - <a class="text-muted fw-bold" href="#"> Colaboración estudiantes POLIANDINO - GRUPO ENSEÑA</a>
-  </div>
-</footer>
-<!-- fin footer-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  <script src="./js/app1.js"></script>
+  </footer>
+  <!-- fin footer-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="./js/app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <!--animaciones scrollreveal-->
-  <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.container',{
-        duration:2000,
-        origin: 'left',
-        distance:'800px'
-    });    
-  </script> 
-  <script>
-    textWrapper();
-  </script>
-  <script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
   <script type="text/javascript">
-  emailjs.init('Q2p5al_FARTln-wNC')
-</script>
-<script>
-  const btn = document.getElementById('button');
+    emailjs.init('Q2p5al_FARTln-wNC');
+    const sr = ScrollReveal();
+    const btn = document.getElementById('button');
 
-document.getElementById('form-btn')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
-
-   btn.value = 'Enviando...';
-
-   const serviceID = 'default_service';
-   const templateID = 'template_2xqnum2';
-
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Enviar mensaje';
-      alert('Enviado!');
-    }, (err) => {
-      btn.value = 'Enviar mensaje';
-      alert(JSON.stringify(err));
-    });
-});
-</script>
-  </body>
+    cargarScrollRevealContacto(sr);
+    textWrapper();
+    guardarFormContacto(btn);
+  </script>
+</body>
 </html>    

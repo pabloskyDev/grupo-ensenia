@@ -24,6 +24,33 @@ function cargarScrollRevealIndex(sr) {
     });
 }
 
+function cargarScrollRevealContacto(sr) {
+    sr.reveal('.container',{
+        duration:2000,
+        origin: 'left',
+        distance:'800px'
+    });
+}
+
+function guardarFormContacto(btn) {
+    document.getElementById('form-btn').addEventListener('submit', function(event) {
+        event.preventDefault();
+        btn.value = 'Enviando...';
+
+        const serviceID = 'default_service';
+        const templateID = 'template_2xqnum2';
+
+        emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+            btn.value = 'Enviar mensaje';
+            alert('Enviado!');
+        }, (err) => {
+            btn.value = 'Enviar mensaje';
+            alert(JSON.stringify(err));
+        });
+    });
+}
+
 function textWrapper() {
     // Wrap every letter in a span
     var textWrapper = document.querySelector('.ml .letters');
