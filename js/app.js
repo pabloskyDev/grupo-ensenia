@@ -115,6 +115,24 @@ function cargarScrollRevealEstudiantes(sr) {
     }); 
 }
 
+function cargarScrollRevealNiveles(sr) {
+    sr.reveal('.card1',{
+        duration:2000,
+        origin: 'left',
+        distance:'200px'
+    });
+    sr.reveal('.card2',{
+        duration:2000,
+        origin: 'bottom',
+        distance:'200px'
+    });
+    sr.reveal('.card3',{
+        duration:2000,
+        origin: 'right',
+        distance:'200px'
+    });
+}
+
 function textWrapper() {
     // Wrap every letter in a span
     var textWrapper = document.querySelector('.ml .letters');

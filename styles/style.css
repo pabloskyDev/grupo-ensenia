@@ -36,7 +36,7 @@
 }
 .bodyniveles {
   font-family: 'Arima', sans-serif;
-  background-image:url(../img/imgFondoNiveles.png);
+  /* background-image:url(../img/imgFondoNiveles.png); */
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
