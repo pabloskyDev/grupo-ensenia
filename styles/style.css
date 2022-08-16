@@ -462,6 +462,7 @@ input {
 .btn-contacto:hover, .btn-contacto:active, .btn-contacto:focus { background-color: #4b667b; }
 .btn-estudiantes:hover, .btn-estudiantes:active, .btn-estudiantes:focus { background-color: #06b7d9; }
 .btn-niveles:hover, .btn-niveles:active, .btn-niveles:focus { background-color: #812E95; }
+.btn-somos:hover, .btn-somos:active, .btn-somos:focus { background-color: #FF8B01; }
 
 /* Inicio canales -estudiantes */
 #canal-virtual .col-lg-4, #canal-cursos .col-lg-4 , #canal-videos .col-lg-6 {
