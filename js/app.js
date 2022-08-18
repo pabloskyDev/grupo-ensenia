@@ -2,25 +2,25 @@ var zoom = 1;
 
 function cargarScrollRevealIndex(sr) {
     sr.reveal('#carousel-index',{
-        duration:2000,
+        duration:4000,
         origin: 'left',
         distance:'800px'
     });
     
     sr.reveal('.card1',{
-        duration:2000,
+        duration:4000,
         origin: 'top',
         distance:'200px'
     });
     
     sr.reveal('.card2',{
-        duration:2000,
+        duration:4000,
         origin: 'bottom',
         distance:'200px'
     });
     
     sr.reveal('.card3',{
-        duration:2000,
+        duration:4000,
         origin: 'top',
         distance:'200px'
     });
@@ -28,7 +28,7 @@ function cargarScrollRevealIndex(sr) {
 
 function cargarScrollRevealContacto(sr) {
     sr.reveal('.container',{
-        duration:2000,
+        duration:4000,
         origin: 'left',
         distance:'800px'
     });
@@ -55,22 +55,22 @@ function guardarFormContacto(btn) {
 
 function cargarScrollRevealCanales(sr) {
     sr.reveal('#navHeaderCanales',{
-        duration:2000,
+        duration:4000,
         origin: 'left',
         distance:'800px'
     });
     sr.reveal('.card1',{
-        duration:2000,
+        duration:4000,
         origin: 'left',
         distance:'200px'
     }); 
     sr.reveal('.card2',{
-        duration:2000,
+        duration:4000,
         origin: 'bottom',
         distance:'200px'
     });
     sr.reveal('.card3',{
-        duration:2000,
+        duration:4000,
         origin: 'right',
         distance:'200px'
     });
@@ -78,22 +78,22 @@ function cargarScrollRevealCanales(sr) {
 
 function cargarScrollRevealColaboradores(sr) {
     sr.reveal('#boxps1',{
-        duration:2000,
+        duration:4000,
         origin: 'left',
         distance:'50px'
     });
     sr.reveal('#boxps2',{
-        duration:2000,
+        duration:4000,
         origin: 'top',
         distance:'100px'
     });
     sr.reveal('#boxps3',{
-        duration:2000,
+        duration:4000,
         origin: 'right',
         distance:'50px'
     });
     sr.reveal('#fondoprof1',{
-        duration:2000,
+        duration:4000,
         origin: 'left',
         distance:'50px'
     });
@@ -101,17 +101,17 @@ function cargarScrollRevealColaboradores(sr) {
 
 function cargarScrollRevealEstudiantes(sr) {
     sr.reveal('.card1',{
-        duration:2000,
+        duration:4000,
         origin: 'left',
         distance:'200px'
     });
     sr.reveal('.card2',{
-        duration:2000,
+        duration:4000,
         origin: 'bottom',
         distance:'200px'
     });
     sr.reveal('.card3',{
-        duration:2000,
+        duration:4000,
         origin: 'right',
         distance:'200px'
     }); 
@@ -119,17 +119,17 @@ function cargarScrollRevealEstudiantes(sr) {
 
 function cargarScrollRevealNiveles(sr) {
     sr.reveal('.card1',{
-        duration:2000,
+        duration:4000,
         origin: 'left',
         distance:'200px'
     });
     sr.reveal('.card2',{
-        duration:2000,
+        duration:4000,
         origin: 'bottom',
         distance:'200px'
     });
     sr.reveal('.card3',{
-        duration:2000,
+        duration:4000,
         origin: 'right',
         distance:'200px'
     });
@@ -144,13 +144,13 @@ function textWrapper() {
    .add({
         targets: '.ml .letter',
         scale: [0, 1],
-        duration: 2500,
+        duration: 5000,
         elasticity: 800,
         delay: (el, i) => 100 * (i+1)
     }).add({
         targets: '.ml',
         opacity: 0,
-        duration: 2000,
+        duration: 5000,
         easing: "easeOutExpo",
         delay: 1000
     });
