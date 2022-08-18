@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <!-- Menu navegación contactanos -->
-<body class="bodycontactanos" >
+<body class="bodycontactanos" id="bodyPpal">
   <nav class="navbar navbar-expand-lg bg-contact">
     <div class="container-fluid">
       <a class="navbar-brand col-md-4 d-flex align-items-center ps-5 m-0" href="index.html">
@@ -77,9 +77,9 @@
   <div class="barra-lateral">
     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
       <div class="btn-group-vertical me-2" role="group" aria-label="group">
-        <button type="button" class="btn btn-light"><img src="img/icons/brightness-high.svg" class="bi bi-brightness-high"></button>
-        <button type="button" class="btn btn-light"><img src="img/icons/zoom-in.svg" class="bi bi-zoom-in"></button>
-        <button type="button" class="btn btn-light"><img src="img/icons/zoom-out.svg" class="bi bi-zoom-out"></button>
+        <button type="button" class="btn btn-default btn-contacto" onclick="modoOscuro(4, 'dark');" id="temaPage"><img src="img/icons/brightness-high.svg" class="bi bi-brightness-high"></button>
+        <button type="button" class="btn btn-default btn-contacto" onclick=" aumentar();"><img src="img/icons/zoom-in.svg" class="bi bi-zoom-in"></button>
+        <button type="button" class="btn btn-default btn-contacto" onclick=" disminuir();"><img src="img/icons/zoom-out.svg" class="bi bi-zoom-out"></button>
       </div>
     </div>
   </div>

@@ -166,6 +166,10 @@
 .bg-canales {
   background-color:#FF5703;
 }
+.bg-oscuro {
+  background-color: #000;
+  color: #fff;
+}
 
 .color-azul {
   color:#06b7d9 !important;
@@ -443,6 +447,22 @@ input {
   top: 40%;
   right: 2px;
 }
+
+.btn-default {
+  border: #000 solid 1px;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus {
+  color: #000;
+}
+
+.btn-index:hover, .btn-index:active, .btn-index:focus { background-color: #4D4C7D; }
+.btn-canales:hover, .btn-canales:active, .btn-canales:focus { background-color: #FF5703; }
+.btn-colab:hover, .btn-colab:active, .btn-colab:focus { background-color: #FF0000; }
+.btn-contacto:hover, .btn-contacto:active, .btn-contacto:focus { background-color: #4b667b; }
+.btn-estudiantes:hover, .btn-estudiantes:active, .btn-estudiantes:focus { background-color: #06b7d9; }
+.btn-niveles:hover, .btn-niveles:active, .btn-niveles:focus { background-color: #812E95; }
+.btn-somos:hover, .btn-somos:active, .btn-somos:focus { background-color: #FF8B01; }
 
 /* Inicio canales -estudiantes */
 #canal-virtual .col-lg-4, #canal-cursos .col-lg-4 , #canal-videos .col-lg-6 {

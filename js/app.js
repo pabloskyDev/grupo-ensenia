@@ -1,3 +1,5 @@
+var zoom = 1;
+
 function cargarScrollRevealIndex(sr) {
     sr.reveal('#carousel-index',{
         duration:2000,
@@ -152,4 +154,60 @@ function textWrapper() {
         easing: "easeOutExpo",
         delay: 1000
     });
+}
+function modoOscuro(tipo, tema) {
+    switch (tipo) {
+        
+        case 1: // index
+            let bgIndex = $('.bg-nav');
+
+            if(tema == 'dark'){
+                bgIndex.addClass('bg-oscuro');
+                if(bgIndex.hasClass("bg-oscuro")){
+                    // $('#temaPage').removeAttr('onClick');
+                    $('#temaPage').on("click", () => {
+                        modoOscuro(1, 'light')
+                    });
+                }
+            }else{
+                console.log('ENTRA');
+                // bgIndex.removeClass('bg-oscuro');
+                // $('#temaPage').on("click", () => {
+                //     bgIndex.addClass('bg-oscuro');
+                //     modoOscuro(1, 'dark')
+                // });
+            }
+
+            /*if(tema == 'dark'){
+                bgIndex.addClass('bg-oscuro');
+
+                $('#temaPage').removeAttr('onClick');
+                document.getElementById('bfCaptchaEntry').onclick = modoOscuro(1, 'light');
+                // $('#temaPage').on('onClick', modoOscuro(1, 'light'));
+            }else if(tema == 'light'){
+                // bgIndex.removeClass('bg-oscuro');
+            }*/
+            
+            
+            break;
+    
+        default:
+            break;
+    }
+}
+
+function aumentar(){
+    zoom+=.10;
+    resize();
+}
+
+function disminuir(){
+    if(zoom >0.2) {
+        zoom-=.10;
+        resize();
+    }
+}
+
+function resize() {
+    document.getElementById("bodyPpal").style.zoom=zoom;
 }
