@@ -59,35 +59,6 @@
   
 }
 
-/* Pag Colaoradores */
-
- .imgsCarousel2{
-  height: 50vh;
-  margin-top: 10px;
-  margin-bottom:60px;
-  border-radius: 50px;
- }
- .imgprofe{
-  height: auto;
-  border-radius: 30px;
-  width: 400px;
-  margin: 20px;
-}
-.imginterprete{
-  height: 200px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
-}
-.imginterpretesemi{
-  height: 400px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
-}
-.imgprofesordo{
-  height: 450px;
-}
- /* Fin Pag Colabradores */
-
  #fondosec3{
   background-image: url(../img/fondosec3quienes.png);
   background-size:contain;
@@ -209,17 +180,9 @@
 #secfinalQuienes{
   background-color: #3c4453;
 }
-#boxdir1{
-  height: 600px;
-}
-#boxdir2{
-  height: 600px;
-}
 
-.imgdir{
-  width: 300px;
-  padding-top: 10px; 
-}
+
+
 .fondodir{
   border: solid 5px #c8c9ca;
   width: 350px;
@@ -317,41 +280,13 @@
   background:#8BC3A3;
   color:white;
 }
-
-.imgprofesordo{
-  height: 600px; 
-}
-.imgprofe{
-  border-radius: 30px;
-  width: 400px;
-  height: auto;
-  margin: 20px; 
-}
-.imginterprete{
-  height: 200px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
-}
-.imginterpretesemi{
-  height: 300px;
-  border-radius: 10px;
-  box-shadow: 3px 2px 5px #a2a1a1;
-}
-
 .cardgif{
   align-items: center;
   
 }
 
-/* seccion coordinadores*/
-#fondocordi{
-  border-radius: 200px;
-  height: 700px;
-}
-.imgcordi{
-  border-radius:180px;
-  padding-bottom: 10px;
-}
+
+
 
 /* Send Button Styles */
 
@@ -565,5 +500,6 @@ input {
   overflow:hidden;
   background:none!important;
   width: 100%;
+
 }
 /* Fin canales -estudiantes */
