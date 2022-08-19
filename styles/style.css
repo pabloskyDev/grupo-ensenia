@@ -59,15 +59,14 @@
   
 }
 
-/* Pag Colaoradores */
-
- .imgsCarousel2{
+/* Pag Colaboradores */
+.imgsCarousel2{
   height: 50vh;
   margin-top: 10px;
   margin-bottom:60px;
   border-radius: 50px;
- }
- .imgprofe{
+}
+.imgprofe{
   height: auto;
   border-radius: 30px;
   width: 400px;
@@ -84,9 +83,9 @@
   box-shadow: 3px 2px 5px #a2a1a1;
 }
 .imgprofesordo{
-  height: 450px;
+  width: 60%;
 }
- /* Fin Pag Colabradores */
+ /* Fin Pag Colaboradores */
 
  #fondosec3{
   background-image: url(../img/fondosec3quienes.png);
@@ -188,11 +187,6 @@
 }
 .color-rojo {
   color: #f00 !important;
-}
-#fondosecpsordos{
-  background-image:url(../img/fondoSecPsordos.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 #fondoInterpretes{
   background-image:url(../img/FondoSeñasInterpetes.png);
@@ -318,9 +312,6 @@
   color:white;
 }
 
-.imgprofesordo{
-  height: 600px; 
-}
 .imgprofe{
   border-radius: 30px;
   width: 400px;
