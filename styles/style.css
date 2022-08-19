@@ -187,35 +187,22 @@
   color: #f00 !important;
 }
 
-#fondosecdir{
-  background-image: url(../img/fondosecEquipoAdmin.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 #secfinalQuienes{
   background-color: #3c4453;
 }
-#boxdir1{
-  height: 600px;
-}
-#boxdir2{
-  height: 600px;
-}
 
 .imgdir{
-  width: 300px;
-  padding-top: 10px; 
+  width: 60%;
 }
+
 .fondodir{
-  border: solid 5px #c8c9ca;
-  width: 350px;
+  width: 80%;
   height:100%;
-  margin-left:auto;
-  margin-right: auto;
+  border: solid 5px #c8c9ca;
   border-radius: 50px;
+  padding: 10px;
 }
+
 /*estilos contactanos*/
 #contact {
   padding:10px 0 10px;
