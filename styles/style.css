@@ -51,7 +51,7 @@
 }
 .bodycolaboradores {
   font-family: 'Arima', sans-serif;
-  background-color: #f6e5e5;
+  background: linear-gradient(#f6e2e2, #e04f4f, #ade8f1, #f6e2e2);
 }
 .bodyquienessomos {
   font-family: 'Arima', sans-serif;
@@ -198,7 +198,6 @@
 .fondodir{
   width: 80%;
   height:100%;
-  border: solid 5px #c8c9ca;
   border-radius: 50px;
   padding: 10px;
 }
@@ -306,17 +305,32 @@
 
 .cardgif{
   align-items: center;
-  
 }
 
 /* seccion coordinadores*/
-#fondocordi{
-  border-radius: 200px;
-  height: 700px;
+.fondocordi{
+  height: 100%;
+  width: 80%;
 }
+
+.fondocordi div{
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 .imgcordi{
-  border-radius:180px;
-  padding-bottom: 10px;
+  border-radius:50%;
+  overflow: hidden;
+}
+
+.img-cordi-row {
+  width: auto;
+}
+
+.img-cordi-row img{
+  width: 100%;
 }
 
 /* Send Button Styles */
