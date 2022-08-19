@@ -40,34 +40,33 @@
       <span class="word">Profesores Sordos</span>
     </h1>
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 p-2">
         <img class="imgprofesordo" src="./img/PROFE BLADIMIR CLAROS_sombra.png" alt="imagen profe sordo1">
         <p class="fs-5 p-2" >"Tu puedes desarrollar la capacidad de comunicarte con personas sordas."</p>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 p-2">
         <img class="imgprofesordo" src="./img/PROFESOR MODELO JUAN E_sombra.png" alt="Imagen profe sordo modelo">
         <p class="fs-5 p-2 pt-3">"Nos esforzamos por eliminar las barreras en la comunicación  entre sordos y oyentes."</p>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 p-2">
         <img class="imgprofesordo " src="./img/PROFE JULIAN DIAZ_sombra.png" alt="imagen profe sordo1">
         <p class="fs-5 p-2">¿Estás preparado para la discapacidad?</p>
       </div>
     </div>
   </div>
-
-  <div class="container-fluid text-center bg-nav text-light pt-3">
+  <div class="container text-center pt-3">
     <h1 class="ml15">
       <span class="word">Profesores</span>
     </h1>
     <div class="row pt-2 pb-5">
-      <div class="col-md-4">
-        <img class="imgprofe" src="./img/PROFE4 YULIE.jpg" alt="" srcset="">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
+        <img class="imgprofe" src="./img/PROFE4 YULIE.jpg" alt="">
       </div>
-      <div class="col-md-4">
-        <img class="imgprofe " src="./img/PROFE5 NELSON.jpg" alt="" srcset="">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
+        <img class="imgprofe " src="./img/PROFE5 NELSON.jpg" alt="">
       </div>
-      <div class="col-md-4">
-        <img class="imgprofe" src="./img/PROFE6 WANDA.png" alt="" srcset="">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4">
+        <img class="imgprofe" src="./img/PROFE6 WANDA.png" alt="">
       </div>
     </div>
   </div>
@@ -314,17 +313,15 @@
       scale: [2,1],
       opacity: [0,1],
       easing: "easeOutCirc",
-      duration: 1000,
+      duration: 5000,
       delay: (el, i) => 1000 * i
     }).add({
       targets: '.ml15',
       opacity: 0,
-      duration: 2000,
+      duration: 5000,
       easing: "easeOutExpo",
       delay: 2000
     });
-    const sr = ScrollReveal();
-    cargarScrollRevealColaboradores(sr);
     textWrapper();  
   </script>
 </body>

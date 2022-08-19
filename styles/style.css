@@ -69,8 +69,7 @@
 .imgprofe{
   height: auto;
   border-radius: 30px;
-  width: 400px;
-  margin: 20px;
+  width: 80%;
 }
 .imginterprete{
   height: 200px;
@@ -312,12 +311,6 @@
   color:white;
 }
 
-.imgprofe{
-  border-radius: 30px;
-  width: 400px;
-  height: auto;
-  margin: 20px; 
-}
 .imginterprete{
   height: 200px;
   border-radius: 10px;
