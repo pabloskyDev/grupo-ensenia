@@ -27,7 +27,7 @@ function cargarScrollRevealIndex(sr) {
 }
 
 function cargarScrollRevealContacto(sr) {
-    sr.reveal('.container',{
+    sr.reveal('.contact',{
         duration:4000,
         origin: 'left',
         distance:'800px'
@@ -54,11 +54,6 @@ function guardarFormContacto(btn) {
 }
 
 function cargarScrollRevealCanales(sr) {
-    sr.reveal('#navHeaderCanales',{
-        duration:4000,
-        origin: 'left',
-        distance:'800px'
-    });
     sr.reveal('.card1',{
         duration:4000,
         origin: 'left',
