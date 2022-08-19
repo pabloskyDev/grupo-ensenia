@@ -61,10 +61,9 @@
 
 /* Pag Colaboradores */
 .imgsCarousel2{
-  height: 50vh;
-  margin-top: 10px;
-  margin-bottom:60px;
-  border-radius: 50px;
+  height: 60vh;
+  width: auto;
+  border-radius: 20px;
 }
 .imgprofe{
   height: auto;
@@ -187,11 +186,7 @@
 .color-rojo {
   color: #f00 !important;
 }
-#fondoInterpretes{
-  background-image:url(../img/FondoSeñasInterpetes.png);
-  background-position: center;
-  background-size:contain;
-}
+
 #fondosecdir{
   background-image: url(../img/fondosecEquipoAdmin.png);
   background-repeat: no-repeat;
