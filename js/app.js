@@ -40,7 +40,7 @@ function guardarFormContacto(btn) {
         btn.value = 'Enviando...';
 
         const serviceID = 'default_service';
-        const templateID = 'template_2xqnum2';
+        const templateID = 'template_yy25sdg';
 
         emailjs.sendForm(serviceID, templateID, this)
         .then(() => {
