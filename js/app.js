@@ -27,7 +27,7 @@ function cargarScrollRevealIndex(sr) {
 }
 
 function cargarScrollRevealContacto(sr) {
-    sr.reveal('.container',{
+    sr.reveal('.contact',{
         duration:4000,
         origin: 'left',
         distance:'800px'
@@ -40,7 +40,7 @@ function guardarFormContacto(btn) {
         btn.value = 'Enviando...';
 
         const serviceID = 'default_service';
-        const templateID = 'template_2xqnum2';
+        const templateID = 'template_yy25sdg';
 
         emailjs.sendForm(serviceID, templateID, this)
         .then(() => {
@@ -54,11 +54,6 @@ function guardarFormContacto(btn) {
 }
 
 function cargarScrollRevealCanales(sr) {
-    sr.reveal('#navHeaderCanales',{
-        duration:4000,
-        origin: 'left',
-        distance:'800px'
-    });
     sr.reveal('.card1',{
         duration:4000,
         origin: 'left',
@@ -73,29 +68,6 @@ function cargarScrollRevealCanales(sr) {
         duration:4000,
         origin: 'right',
         distance:'200px'
-    });
-}
-
-function cargarScrollRevealColaboradores(sr) {
-    sr.reveal('#boxps1',{
-        duration:4000,
-        origin: 'left',
-        distance:'50px'
-    });
-    sr.reveal('#boxps2',{
-        duration:4000,
-        origin: 'top',
-        distance:'100px'
-    });
-    sr.reveal('#boxps3',{
-        duration:4000,
-        origin: 'right',
-        distance:'50px'
-    });
-    sr.reveal('#fondoprof1',{
-        duration:4000,
-        origin: 'left',
-        distance:'50px'
     });
 }
 
